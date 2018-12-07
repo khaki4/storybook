@@ -2,11 +2,15 @@
   "devDependencies": {
     "@babel/core": "7.2.0",
     "@storybook/addon-info": "^4.0.12",
+    "@storybook/addon-knobs": "4.0.12",
     "@storybook/addons": "4.0.12",
     "@storybook/react": "4.0.12",
+    "@types/react": "16.7.13",
+    "awesome-typescript-loader": "5.2.1",
     "babel-core": "6.26.3",
     "babel-loader": "8.0.4",
-    "storybook-addon-jsx": "6.0.0"
+    "storybook-addon-jsx": "6.0.0",
+    "typescript": "3.2.2"
   },
   "dependencies": {
     "react": "^16.6.3",
