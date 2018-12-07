@@ -13,7 +13,7 @@ export interface Props {
   disabled?: boolean;
 }
 const noop = () => {};
-export const Button = (props: Props) => {
+const Presenter = (props: Props) => {
   const { children, onClick, disabled = false } = props;
   const disabledclass = disabled ? 'Button_disabled' : '';
   return (
@@ -25,3 +25,5 @@ export const Button = (props: Props) => {
     </div>
   );
 };
+
+export default Presenter;
