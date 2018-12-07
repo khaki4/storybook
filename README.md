@@ -6,4 +6,5 @@
 ```bash
 $ touch .storybook/webpack.config.js tsconfig.json
 $ yarn add -D -E @types/react typescript awesome-typescript-loader
+$ yarn add -D -E react-docgen-typescript-webpack-plugin
 ```
